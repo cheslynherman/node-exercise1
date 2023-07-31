@@ -14,6 +14,8 @@ fs.writeFile("data.txt", "such a nice person", function (err){
     console.log ("Write operation complete.");
 });
 
+// the first data was overrided by the second 
+
 var fs = require("fs");
 fs.appendFile("data.txt", "Another one", function (err) {
     if (err)
